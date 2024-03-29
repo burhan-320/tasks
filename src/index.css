@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home {
+  background-image: url("../public/image/bg-img.jpeg");
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.btn {
+  background-color: white;
+  border-radius: 0.3rem;
+  padding: 0.4rem 0.8rem;
+}
+
+.btn2 {
+  border: 1px solid white;
+}
+
+.global {
+  min-height: 100vh;
+  width: 100%;
+}
+.swiper {
+  position: relative;
+}
+.btnArrow {
+  height: 3rem;
+  width: 100%;
+  /* background-color:; */
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  color: #0063a7;
+}
+.ico {
+  border: solid 2px #0063a7;
+  padding: 0.5rem;
+  border-radius: 3rem;
+}

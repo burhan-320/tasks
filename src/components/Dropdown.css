@@ -1,0 +1,37 @@
+.services-submenu {
+  width: 10rem;
+  position: absolute;
+  z-index: 10000;
+  top: 67px;
+  list-style: none;
+  text-align: start;
+  border-radius: 1rem;
+}
+
+.services-submenu li {
+  background: #5ba1d7;
+  cursor: pointer;
+  /* position: relative; */
+  /* border-radius: 1rem; */
+}
+
+.services-submenu li a:hover {
+  background: #5ba1d7;
+  /* border-radius: 1rem; */
+}
+
+.services-submenu.clicked {
+  display: none;
+  border-radius: 1rem;
+}
+
+.submenu-item {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+  padding: 16px;
+  border-radius: 1rem;
+  /* position: relative; */
+}
